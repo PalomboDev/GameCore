@@ -16,7 +16,5 @@ public abstract class GameCorePlugin {
 
     public abstract void onEnable();
     public abstract void onDisable();
-
-    public void setScoreboard(){}
 }
 
