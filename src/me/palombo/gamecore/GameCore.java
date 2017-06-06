@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class GameCore extends JavaPlugin {
 
-    public static GameCore pabloCore;
+    public static GameCore gameCore;
 
     private CommandManager commandManager;
     private MapManager mapManager;
@@ -46,6 +46,6 @@ public class GameCore extends JavaPlugin {
     }
 
     public static GameCore get() {
-        return pabloCore;
+        return gameCore;
     }
 }
