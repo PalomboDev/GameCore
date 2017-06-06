@@ -16,7 +16,7 @@ public class GameCore extends JavaPlugin {
     private GameManager gameManager;
 
     public void onEnable() {
-        pabloCore = this;
+        gameCore = this;
 
         commandManager = new CommandManager(this);
         mapManager = new MapManager(this);
