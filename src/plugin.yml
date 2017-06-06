@@ -1,0 +1,4 @@
+main: me.palombo.gamecore.GameCore
+name: GameCore
+author: Palombo
+version: 1.0
